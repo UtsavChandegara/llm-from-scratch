@@ -1,0 +1,33 @@
+day 1 :
+Create one file, `basics1.py`, and add each task to it. Run it after every task. Type everything yourself, and finish each task without looking at my hints first.
+
+**Tasks**
+
+1. **Name and age.** Store your name and age in two variables. Print one sentence: `My name is Utsav and I am 22 years old.` Use an f-string.
+
+2. **Swap values.** Make `a = 10` and `b = 25`. Swap them so `a` is 25 and `b` is 10, then print both. Hint: Python can do it in one line (`a, b = b, a`), but first try it with a third temporary variable.
+
+3. **Rectangle.** Store `length = 12` and `width = 7`. Print the area and perimeter in a sentence like `Area is 84 and perimeter is 38.`
+
+4. **Temperature converter.** Store `celsius = 36.6`. Convert it to Fahrenheit (`F = C * 9/5 + 32`) and print it rounded to 1 decimal place using `round()`. Then print it again with the f-string format `{f:.1f}`.
+
+5. **Division types.** Store `a = 17` and `b = 5`. Print `a / b`, `a // b`, and `a % b` on separate lines, each with a label. Write one comment above each line saying what the operator does.
+
+6. **Type check.** Make four variables: an integer, a float, a string and a boolean (`True`). Print each value with its type using `type()`, like `42 is <class 'int'>`. Then try `"5" + 3` and read the error. Fix it by converting with `int()` or `str()`.
+
+7. **String practice.** Store `text = "  Large Language Models  "`. Print it after each of these: `.strip()`, `.lower()`, `.upper()`, `.replace("Large", "Small")`, `len(text)`. Note which ones change the original (hint: none do).
+
+8. **Indexing and slicing a string.** Store `word = "tokenizer"`. Print the first letter, last letter, first 5 letters, last 3 letters, and the word reversed (`word[::-1]`). This is the same slicing you'll use on token lists in Chapter 2.
+
+9. **Simple bill.** Store the item `"notebook"`, price `45.5`, and quantity `3`. Print a receipt in three lines using f-strings with the numbers aligned, for example `{price:>8.2f}`. Look up what `>8.2f` means and write it in a comment.
+
+10. **Mini input program.** Use `input()` to ask for the user's name and birth year, then print `Hello Utsav, you are about 22 years old.` Remember that `input()` always returns a string, so you must convert the year with `int()`. Calculate the age from the current year (2026).
+
+**Check yourself**
+
+After the tenth task, answer these without running code:
+- What does `7 // 2` give? What does `7 % 2` give?
+- Why does `"5" + 3` fail?
+- What is `"tokenizer"[2:5]`?
+
+If you get any wrong, rerun that task. Paste your `basics1.py` here when it's done and I'll review it.
